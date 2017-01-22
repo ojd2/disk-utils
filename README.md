@@ -13,4 +13,5 @@ A sample of output for `df` looks like:
 	 ojd2:/	        7445  4714   1986    70%       /
 	 ojd2:/usr     42277  35291  2758    93%       /usr
 ```
-Both scripts utilise the `df -h` and the `df -M` commands both display either disk usage statistics and amount of MB Block disk usage.
+Both scripts utilise the `df -h` and the `df -M` commands which both display both disk usage statistics and MB Block disk usage amount. If either two is
+greater than or equal to thresholds, some simple methods send email notifications.
