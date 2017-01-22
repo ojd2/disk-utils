@@ -1,6 +1,6 @@
 # Linux Disk Usage Scripts
 
-Two simple Linux disk usage monitoring scripts that send email notifications if certain conditions are met. Two scripts utilise both MB Block usage and
+Two simple `Linux` disk usage monitoring scripts that sends an email notification if certain conditions are met. Two scripts utilise both MB Block usage and
 default disk capacity usage for a particular a `POSIX` partition. If both are greater than thresholds, then trigger the email alert through the system.
 
 ## Example
